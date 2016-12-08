@@ -1,0 +1,21 @@
+{
+    "name": "sklight/yii2-migrate",
+    "description": "Extended database migration support for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "migrations"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Koshelev",
+            "email": "sklight@inbox.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sklight\\migrate\\": ""
+        }
+    }
+}
