@@ -2,11 +2,11 @@
 
 Extended database migration support for Yii2
 
-##Description
+## Description
 
 Place migrations into subdirs like migrationPath/year/month/m_*
  
-##Installation
+## Installation
 
 Add to composer:
 
@@ -30,7 +30,7 @@ Add a new controller map in controllerMap section of your application's configur
 ],
 ```
 
-##Usage
+## Usage
 
 ```bash
 ./yii migrate/*
